@@ -6,7 +6,9 @@ class App{
     constructor(){
         this.canvas = document.getElementById('canvas');
         this.ctx = this.canvas.getContext("2d");
-        document.body.appendChild(this.canvas);
+        this.parent = document.getElementById('intro_bg'); // 추가한줄
+        //document.body.appendChild(this.canvas);
+        //this.parent.appendChild(this.canvas);
 
         this.sun = new Sun();
 
@@ -26,7 +28,10 @@ class App{
 
     resize(){
         this.stageWidth = document.body.clientWidth;
-        this.stageHeight = document.body.clientHeight;
+        //this.stageHeight = document.body.clientHeight;
+
+        //this.stageWidth = 1000;
+        this.stageHeight = 718;
         
 
         this.canvas.width = this.stageWidth * 2;
