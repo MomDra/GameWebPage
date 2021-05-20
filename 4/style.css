@@ -196,7 +196,7 @@ h1{
 
 .main_text1{
     width: 100%;
-    height: 659px;
+    /* height: 659px; */
 }
 
 .main_text1 > h1{
@@ -210,16 +210,23 @@ h1{
 
 .service{
     width: 1280px;
-    display: flex;
     margin: 49px auto;
-    height: 427px;
+    /* height: 427px; */
 }
 
-.service > .contents2{
+.service > .divphoto{
+    display: flex;
+}
+
+.service > .divphoto:not(:first-child){
+    margin-top: 49px;
+}
+
+.service > .divphoto > .contents2{
     padding: 20px;
 }
 
-.service > .contents2 > h2{
+.service > .divphoto > .contents2 > h2{
     margin-bottom: 27px;
 }
 

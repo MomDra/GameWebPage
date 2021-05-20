@@ -16,6 +16,9 @@ class App{
             new Hill('#ff4674', 0.2, 12),
             new Hill('#ff59c2', 0.5, 8),
             new Hill('#ff4674', 1.4, 6)
+            // new Hill('darkslateblue', 0.2, 12),
+            // new Hill('dimgray', 0.5, 8),
+            // new Hill('darkcyan', 1.4, 6)
         ];
 
         this.sheepController = new SheepController();
