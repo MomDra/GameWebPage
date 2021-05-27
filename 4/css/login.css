@@ -1,0 +1,25 @@
+.login{
+margin-top: 50px;
+text-align: center;
+}
+
+.login > form > ul > li{
+    margin-top: 10px;
+}
+
+.login > form > ul > li > input{
+    width: 30%;
+    height: 47px;
+}
+
+.login > form .login_btn{
+    padding: auto;
+    width: 30%;
+    height: 47px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: lightblue;
+    margin-top: 15px;
+}
