@@ -1,0 +1,46 @@
+.gamein_text0{
+    width: 100%;
+    /* margin-top: -132px; */
+    background-color: #f1f2f3;
+    padding-bottom: 100px;
+}
+
+.gamein_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+
+.gamein_text0 > .contents1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gamein_inner{
+    width: 1280px;
+    display: flex;
+    margin: auto;
+}
+.gamein_inner > .contents2{
+    padding: 20px 0px 0px 50px;
+    font-size: 20px;
+}
+
+.gamein_inner > .contents2 > ul{
+    padding-left: 50px;
+}
+
+.gamein_inner > .contents2 > ul > li{
+    list-style-type: disc;
+}
+
+.gamein_text0 > .play_btn{
+    width: 300px;
+    position: relative;
+    left: 600px;
+    background-color: rgba(0, 161, 161, 0.5);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}

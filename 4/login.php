@@ -12,6 +12,13 @@
     <link rel="stylesheet" type="text/css" href="./css/login.css">
     <script type="module" src="./js/app.js"></script>
     <script>
+            function press(f){ 
+                if(f.keyCode == 13){
+                    check_input();
+                }             
+            }
+
+
             function check_input() {
                 if (!document.login_form.id.value) {
                     alert("아이디를 입력하세요");
@@ -30,38 +37,17 @@
 </head>
 <body>
     <div class="wrap">
-        <div class="intro_bg">
-            <div class="header">
-                <div class="search_area">
-                    <form>
-                        <input type="search" placeholder="Search">
-                        <span>검색</span>
-                    </form>
-                </div>
-                <ul class="nav">
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#link_main_text0">ABOUT</a></li>
-                    <li><a href="#link_main_text1">SERVICE</a></li>
-                    <li><a href="#link_main_text2">CONTACT</a></li>
-                </ul>
-            </div>
-            <div class="intro_text">
-                <h1><a href="home.html">MomDraStudio</a></h1>
-                <!-- <span class="forfree">MomDraStudio.co.kr</span>-->
-            </div>
-            <canvas id="canvas"></canvas>
-        </div>
-        <!-- intro end -->
+        <?php include "header2.php";?>
 
-        <div class="main_text0" id="link_main_text0">
+        <div class="login_text0">
             <h1>LOGIN</h1>
             <div class="contents1">안녕하세요!</div>
             
             <div class="login">
-                <form  name="login_form" method="post" action="login.php">		       	
+                <form  name="login_form" method="post" action="login_action.php">		       	
                     <ul>
                         <li><input type="text" name="id" placeholder=" 아이디" ></li>
-                        <li><input type="password" id="pass" name="pass" placeholder=" 비밀번호" ></li> <!-- pass -->
+                        <li><input type="password" id="pass" name="pass" placeholder=" 비밀번호" onkeydown="if(event.keyCode == 13) check_input()"></li>
                     </ul>
                     <div class="login_btn" onclick="check_input()">
                         LOGIN
@@ -72,18 +58,7 @@
         </div>
         <!-- main_text0 end -->
 
-        <footer>
-            <div>
-                LOGO
-            </div>
-            <div>
-                게임개발자 엄희용<br>
-                Addr. 충남 천안시 동남구 병천면 충절로 1600<br>
-                COPYRIGHT 2021. ALL RIGHT RESERVED.<br>
-                레이아웃 출처: 타모디자인TAMO<br>
-                에니메이션 출처: Interactive Developer
-            </div>
-        </footer>
+        <?php include "footer.php";?>
     </div>
 </body>
 </html>

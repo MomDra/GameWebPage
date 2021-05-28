@@ -1,0 +1,32 @@
+.signup_text0{
+    width: 100%;
+    height: 601px;
+    /* margin-top: -132px; */
+    background-color: #f1f2f3;
+    text-align: center;
+}
+
+.signup_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+
+.signup_text0 > .contents1{
+    text-align: center;
+}
+
+
+.signup_text0 .join_box { margin: 0 auto; display: inline-block;}
+.join_box h2 { 	border-bottom: solid 1px #dddddd; padding-top: 50px; }
+.join_box .col1 { float: left;	width: 110px; margin-top: 4px; }
+.join_box .col2 { float: left;	width: 500px; margin-top: 4px;}
+.join_box .col3 { float: left;}
+.join_box .form input { width: 390px;	height: 25px; }
+.join_box .form { height: 38px; }
+.join_box .id {	margin-top: 20px; }
+.join_box input[name=email1] { width: 100px; margin-right: 5px;}
+.join_box input[name=email2] { width: 275px; margin-left: 5px;}
+.join_box .bottom_line { margin-top: 10px;	border-bottom: solid 1px #cccccc; }
+.join_box .buttons { text-align: right; margin-top: 20px;}
+.join_box .col3 h4 {cursor: pointer;}
+.join_box .buttons h3{cursor: pointer;}

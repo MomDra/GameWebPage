@@ -1,3 +1,19 @@
+.login_text0{
+    width: 100%;
+    height: 601px;
+    /* margin-top: -132px; */
+    background-color: #f1f2f3;
+}
+
+.login_text0 > h1{
+    padding-top: 116px;
+    text-align: center;
+}
+
+.login_text0 > .contents1{
+    text-align: center;
+}
+
 .login{
 margin-top: 50px;
 text-align: center;
@@ -16,6 +32,7 @@ text-align: center;
     padding: auto;
     width: 30%;
     height: 47px;
+    line-height: 47px;
     display: inline-block;
     cursor: pointer;
     font-weight: bold;

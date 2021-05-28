@@ -5,36 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MomDraStudio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="module" src="./js/app.js"></script>
 </head>
 <body>
     <div class="wrap">
-        <div class="intro_bg">
-            <div class="header">
-                <div class="search_area">
-                    <form>
-                        <input type="search" placeholder="Search">
-                        <span>검색</span>
-                    </form>
-                </div>
-                <ul class="nav">
-                    <li><a href="#">LOGIN</a></li>
-                    <li><a href="#link_main_text0">ABOUT</a></li>
-                    <li><a href="#link_main_text1">GAME</a></li>
-                    <li><a href="#link_main_text2">CONTACT</a></li>
-                </ul>
-            </div>
-            <div class="intro_text">
-                <h1><a href="home.html">MomDraStudio</a></h1>
-                <!-- <span class="forfree">MomDraStudio.co.kr</span>-->
-            </div>
-            <canvas id="canvas"></canvas>
-        </div>
-        <!-- intro end -->
+        <?php include "header.php";?>
 
         <ul class="amount">
             <li>
@@ -229,32 +207,7 @@
         </div>
         <!-- main_text1 end -->
 
-        <div class="main_text2" id="link_main_text2">
-            <ul>
-                <li>
-                    <div><h1>CONTACT</h1></div>
-                    <div>연락을 주세요.</div>
-                    <div class="more2">
-                        더 알아보기
-                    </div>
-                </li>
-                <li></li>
-            </ul>
-        </div>
-        <!-- main_text2 end -->
-
-        <footer>
-            <div>
-                LOGO
-            </div>
-            <div>
-                게임개발자 엄희용<br>
-                Addr. 충남 천안시 동남구 병천면 충절로 1600<br>
-                COPYRIGHT 2021. ALL RIGHT RESERVED.<br>
-                레이아웃 출처: 타모디자인TAMO<br>
-                에니메이션 출처: Interactive Developer
-            </div>
-        </footer>
+        <?php include "footer.php";?>
     </div>
 </body>
 </html>
