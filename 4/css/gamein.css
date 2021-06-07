@@ -21,7 +21,7 @@
     margin: auto;
 }
 .gamein_inner > .contents2{
-    padding: 20px 0px 0px 50px;
+    padding: 10px 0px 0px 50px;
     font-size: 20px;
 }
 
@@ -33,14 +33,17 @@
     list-style-type: disc;
 }
 
-.gamein_text0 > .play_btn{
+.gamein_inner > .contents2 > a{
+    color: blue;
+}
+
+.gamein_text0 > .gamein_inner > a > .play_btn{
     width: 300px;
     position: relative;
-    left: 600px;
+    left: 500px;
     background-color: rgba(0, 161, 161, 0.5);
     text-align: center;
     font-size: 50px;
     font-weight: bold;
     margin-top: 50px;
-    cursor: pointer;
 }

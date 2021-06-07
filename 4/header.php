@@ -25,7 +25,7 @@
 
             <li><a href="signup.php">SIGN UP</a></li>
             <li><a href="login.php">LOGIN</a></li>
-            <li><a href="login.php">COMUNITY</a></li>
+            <!-- <li><a href="login.php">COMUNITY</a></li> -->
 
 <?php
     }
@@ -34,7 +34,7 @@
 ?>
             <li><a href="#"><?=$logged?></a></li>
             <li><a href="logout.php">LOGOUT</a></li>
-            <li><a href="#">COMUNITY</a></li>
+            <!-- <li><a href="#">COMUNITY</a></li> -->
 <?php
     }
 ?>

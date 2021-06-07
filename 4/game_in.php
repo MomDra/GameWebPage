@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="./css/gamein.css">
+    <link rel="stylesheet" type="text/css" href="./css/comment.css">
+    <script src="./js/comment_input.js"></script>
     <script type="module" src="./js/app.js"></script>
 </head>
 <body>
@@ -35,16 +37,22 @@
                         <li>GameObject 생성, 종류</li>
                     </ul>
                     <br>조작키
-                    <br> 이동: WASD &nbsp; 점프: SPACE
+                    <br> 이동: 방향키 &nbsp; 점프: SPACE
+                    <br><br> <a href="https://www.youtube.com/watch?v=7plGPXkmnxQ&list=PLO-mt5Iu5TeZa9dsqMVvXuSfVxwR_2AOz&index=1" target="_blank">[참고자료]</a>
                 </div>
             </div>
             
-            <div class="play_btn" onclick= "window.open().location.href = 'http://localhost/game/Drive/'">
-                PLAY
+            <div class="gamein_inner">
+                <a href='./game/ball' target='_blank'>
+                    <div class="play_btn">
+                        PLAY
+                    </div>
+                </a>
             </div>
-
         </div>
-        <!-- main_text0 end -->
+
+        <?php $target = 1; ?>
+        <?php include "comment_form.php";?>
 
         <?php include "footer.php";?>
     </div>
