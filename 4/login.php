@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" href="./css/login.css">
     <script type="module" src="./js/app.js"></script>
     <script>

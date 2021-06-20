@@ -7,7 +7,7 @@
     <title>MomDraStudio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script type="module" src="./js/app.js"></script>
 </head>
 <body>
@@ -120,7 +120,7 @@
                 <input type="radio" name="tabmenu" id="tab02">
 
                 <div class="conbox con1">
-                    <!-- first divphoto -->
+
                     <div class="divphoto">
                         <div class="game_photo">
                             <a href="game_in.php"><img src="./img/game1.png" width="600"></a>
@@ -129,7 +129,7 @@
                             <a href="game_in_2.php"><img src="./img/game2.png"  width="600"></a>
                         </div>
                     </div>
-                    <!-- second divphoto -->
+
                     <div class="divphoto">
                         <div class="game_photo">
                             <a href="game_in_3.php"><img src="./img/game3.png" width="600"></a>
@@ -138,7 +138,7 @@
                             <a href="game_in_4.php"><img src="./img/game4.png" width="600"></a>
                         </div>
                     </div>
-                    <!-- third divphoto -->
+
                     <div class="divphoto">
                         <div class="game_photo">
                             <a href="game_in_5.php"><img src="./img/game5.png" width="600"></a>

@@ -1,6 +1,6 @@
 <footer>
     <div>
-        LOGO
+        MomDraStudio
     </div>
     <div>
         게임개발자 엄희용<br>
